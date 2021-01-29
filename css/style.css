@@ -1,0 +1,180 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/* --------****Main Styles***-------- */
+html{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    color: white;
+    font-family: 'Arvo', serif;
+}
+
+header{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+#header_descr{
+    clear:both;
+    margin-top: -1em;
+    font-size: 20px;
+}
+
+h1{
+    margin: 1px;
+    text-align: center;
+}
+
+body{
+    font-size: 20px;
+    color: black;
+}
+
+img{
+    max-width: 700px; height: auto;
+    float: left;
+    border-radius: 20px;
+}
+
+.img-right{
+    float: right
+}
+
+h2{
+    margin: 0;
+    font-size: 50px;
+    padding-top: 30px;
+    float: right;
+    text-transform: uppercase;
+}
+
+.left{
+    float: left;
+}
+
+h3{
+    margin: 0;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 9.5px;
+    float: right;
+}
+
+p{
+    float: right;
+    text-align: right;
+}
+
+.p-left{
+    float: left;
+    text-align: left;
+}
+
+.content-wrap-left{
+    max-width: auto;
+    width: 90%;
+    height: 500px;
+    text-align: center;
+    background: rgb(255, 174, 0);
+    margin: 0 auto;
+    padding: 50px 50px;
+    overflow: visible;
+    border-radius: 20px;
+}
+
+.content-wrap-right{
+    max-width: auto;
+    width: 90%;
+    height: 500px;
+    text-align: left;
+    background: rgb(255, 174, 0);
+    margin: 0 auto;
+    padding: 60px 60px;
+    overflow: visible;
+    border-radius: 20px;
+}
+
+.samples{
+    padding: 100px;
+    text-align: center;
+}
+
+strong{
+    font-size: 25px;
+}
+
+/* footer */
+.footer{
+    background-color: white;
+    clear: both;
+    height: 70px;
+    margin: 5px;
+    padding: 20px 20px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
+
+/* Side Navigation */
+
+.sidenav {
+    width: 130px;
+    margin-top: 10%;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: orange;
+    display: block;
+}
+  
+.sidenav a:hover {
+    color: #064579;
+}
+  
+.main {
+    margin-left: 140px;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/* Responsive */
+
+/* Landscape */
+@media screen and (max-width: 1060px) {
+    .samples { width:100%; }
+}
+
+/* Vertical Scape */
+@media screen and (max-width: 768px) {
+    .samples { width:100%; }
+    .content-wrap { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:600px) {
+    img[data-src-500px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-500px] {
+        content: attr(data-src-800px, url);
+    }
+}
