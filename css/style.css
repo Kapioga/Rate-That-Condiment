@@ -156,6 +156,11 @@ strong{
 
 /* Responsive */
 
+/* Mobile or Tablet Optimized */
+.samples {
+  width: 100%;
+} 
+
 /* Landscape */
 @media screen and (max-width: 1060px) {
     .samples { width:100%; }
