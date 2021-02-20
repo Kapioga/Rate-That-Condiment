@@ -4,8 +4,10 @@ Version: 1.0
 
 Note: Best used on Desktop!
 
-Version: 1.1: In Progress:
-	Experimenting with mobile optimization
+Last Updated: Feb 20, 2021
+Version: 1.1: 
+	Reorganized content
+	optimized text alignment for mbile
 
 Photography Credits:
 
